@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(69, 76, 92, 0.75),rgba(68, 82, 117, 0.872)),
+    url(confeccion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    font-family: sans-serif;
+    margin: 0;;
+    text-align: center;
+}
+form{
+    padding: 50px 55px;
+    position: absolute;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 340px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+h2{
+    color: blue;
+    font-size: 35px;
+    text-align: center;
+
+}
+label{
+    color: cornflowerblue;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: lightseagreen;
+    border: 2px solid rgb(61, 30, 238);
+
+
+}
+input::placeholder, textarea::placeholder{
+    color: white;
+
+}
+
+.politicas{
+    margin-left: 15px ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.form-txt a{
+    color: deepskyblue;
+    margin-bottom: 15px;
+}
+.btn{
+    cursor: pointer;
+}
